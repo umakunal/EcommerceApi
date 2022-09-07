@@ -1,0 +1,17 @@
+{
+  "name": "node-js-api",
+  "version": "1.0.0",
+  "description": "An e-commerce app with multi vendors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Samrat Kunal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
