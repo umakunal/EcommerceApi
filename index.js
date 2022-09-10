@@ -1,9 +1,10 @@
 const express = require('express')
 
 const app = express()
+app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
-  return res.send('Hello this get request')
+  return res.render('index')
 })
 
 app.listen(3000, () => {
